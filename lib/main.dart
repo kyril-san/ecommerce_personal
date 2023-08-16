@@ -1,3 +1,6 @@
+// ignore_for_file: unused_import
+
+import 'package:ecommerce_personal/pages/home_page.dart';
 import 'package:ecommerce_personal/pages/sign_in_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -21,8 +24,9 @@ class MyApp extends StatelessWidget {
             colorScheme: ColorScheme.fromSeed(
                 seedColor: Colors.deepPurple, brightness: Brightness.light),
             useMaterial3: true,
+            tabBarTheme: const TabBarTheme(dividerColor: Colors.transparent),
             fontFamily: 'DMSans'),
-        home: const SignInPage(),
+        home: const Homepage(),
       ),
     );
   }

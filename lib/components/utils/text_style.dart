@@ -8,13 +8,41 @@ class Textsyles {
   static final texts = TextStyle(
       color: Colors.white, fontSize: 14.sp, fontWeight: FontWeight.w400);
 
+  static final subheader = TextStyle(
+      color: Colors.white, fontSize: 14.sp, fontWeight: FontWeight.w700);
+
+  static final buttonstyle = TextStyle(
+      color: Colors.white, fontSize: 16.sp, fontWeight: FontWeight.w700);
+
   static final header = TextStyle(
       color: Colors.white, fontSize: 51.048.sp, fontWeight: FontWeight.w700);
 
-  static final subheader = TextStyle(
-      color: Colors.white, fontSize: 14.sp, fontWeight: FontWeight.w700);
-  static final buttonstyle = TextStyle(
-      color: Colors.white, fontSize: 16.sp, fontWeight: FontWeight.w700);
+  static final textblacksmall = TextStyle(
+      color: Colors.black, fontSize: 12.sp, fontWeight: FontWeight.w700);
+
+  static final textblack = TextStyle(
+      color: Colors.black, fontSize: 14.sp, fontWeight: FontWeight.w400);
+
+  static final greetings = TextStyle(
+      fontSize: 16.sp, fontWeight: FontWeight.w400, color: Colors.black);
+
+  static final appbarTitle = TextStyle(
+      fontSize: 19.048.sp, fontWeight: FontWeight.w700, color: Colors.black);
+
+  static final welcomeHeading = TextStyle(
+      fontSize: 24.sp, fontWeight: FontWeight.w700, color: Colors.black);
+
+  static final textdarkgrey = TextStyle(
+      color: Mycolors.darkgrey, fontSize: 14.sp, fontWeight: FontWeight.w400);
+
+  static final shop = TextStyle(
+      color: Mycolors.primary, fontSize: 14.sp, fontWeight: FontWeight.w700);
+
+  static final productsitems = TextStyle(
+      fontFamily: 'Montserrat',
+      fontSize: 22.sp,
+      fontWeight: FontWeight.w700,
+      color: Colors.black);
 
   static final underlinebutton = TextStyle(
       decoration: TextDecoration.underline,

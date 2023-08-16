@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors
+// ignore_for_file: prefer_const_constructors, file_names
 
 import 'package:ecommerce_personal/components/signupcomp/reuseables.dart';
 import 'package:ecommerce_personal/components/utils/text_style.dart';
