@@ -4,13 +4,12 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This Project is for learning the combination of Flutter and Firebase as well as other security Implementation
 
-A few resources to get you started if this is your first Flutter project:
+Here is the Link for the Ui design that I picked for the app
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+It is a Figma Design. 
+https://www.figma.com/file/7eeIXIzHxXwAWKjJWERHDZ/E-Commerce-UI-Kit-V1.1-(Community)?node-id=652%3A833&mode=dev
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Feel free to comment what and suggest any form of implementations on the code. I would greatly appreciate all the help and suggestions that I can get
+Thank You
