@@ -25,30 +25,18 @@ class FeaturedProduct extends StatelessWidget {
                   borderRadius: BorderRadius.circular(15.r)),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
-                // mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                   Expanded(
-                    flex: 2,
-                    child: Image.asset(
-                      'assets/Headphones.png',
-                      height: 125.h,
-                      width: 125.w,
-                      fit: BoxFit.contain,
-                    ),
-                  ),
+                      flex: 2,
+                      child: Image.asset('assets/Headphones.png',
+                          height: 125.h, width: 125.w, fit: BoxFit.contain)),
                   SizedBox(height: 20.h),
                   Expanded(
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(
-                          'TMA-2 HD Wireless',
-                          style: Textsyles.textblack,
-                        ),
-                        Text(
-                          'USD 350',
-                          style: Textsyles.textblacksmall,
-                        )
+                        Text('TMA-2 HD Wireless', style: Textsyles.textblack),
+                        Text('USD 350', style: Textsyles.textblacksmall)
                       ],
                     ),
                   )

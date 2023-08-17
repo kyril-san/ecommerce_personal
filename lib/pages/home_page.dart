@@ -1,8 +1,8 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, unused_import
 
 import 'package:ecommerce_personal/components/homepage/products.dart';
-import 'package:ecommerce_personal/components/homepage/reuseables.dart';
-import 'package:ecommerce_personal/components/signupcomp/reuseables.dart';
+import 'package:ecommerce_personal/components/homepage/home_page_reuseables.dart';
+import 'package:ecommerce_personal/components/signupcomp/sign_up_reuseables.dart';
 import 'package:ecommerce_personal/components/utils/text_style.dart';
 import 'package:ecommerce_personal/const/colors.dart';
 import 'package:feather_icons/feather_icons.dart';

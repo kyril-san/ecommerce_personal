@@ -1,8 +1,8 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, unused_import
 
 import 'package:ecommerce_personal/components/homepage/featured_product.dart';
+import 'package:ecommerce_personal/components/homepage/home_page_reuseables.dart';
 import 'package:ecommerce_personal/components/homepage/shop_now_products.dart';
-import 'package:ecommerce_personal/components/signupcomp/reuseables.dart';
 import 'package:ecommerce_personal/components/utils/text_style.dart';
 import 'package:ecommerce_personal/const/colors.dart';
 import 'package:flutter/material.dart';
@@ -20,25 +20,10 @@ class HeadPhones extends StatelessWidget {
       child: Column(children: [
         ShopNowProducts(),
         SizedBox(height: 20.h),
-        _featuredandseeall(context),
+        featuredandseeall(context, 'Featured Products'),
         SizedBox(height: 20.h),
         FeaturedProduct()
       ]),
     );
   }
-}
-
-_featuredandseeall(BuildContext context) {
-  return Row(
-    children: [
-      Expanded(
-        child: reuseableText(context, Textsyles.greetings,
-            text: 'Featured Products'),
-      ),
-      Padding(
-        padding: EdgeInsets.only(right: 24.w),
-        child: reuseableText(context, Textsyles.textdarkgrey, text: 'See All'),
-      ),
-    ],
-  );
 }

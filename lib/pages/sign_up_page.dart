@@ -1,6 +1,6 @@
 // ignore_for_file: prefer_const_constructors, file_names
 
-import 'package:ecommerce_personal/components/signupcomp/reuseables.dart';
+import 'package:ecommerce_personal/components/signupcomp/sign_up_reuseables.dart';
 import 'package:ecommerce_personal/components/utils/text_style.dart';
 import 'package:feather_icons/feather_icons.dart';
 import 'package:flutter/material.dart';

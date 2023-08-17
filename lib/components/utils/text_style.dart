@@ -32,17 +32,29 @@ class Textsyles {
   static final welcomeHeading = TextStyle(
       fontSize: 24.sp, fontWeight: FontWeight.w700, color: Colors.black);
 
+  static final textdarkgreysmall = TextStyle(
+      color: Mycolors.darkgrey, fontSize: 12.sp, fontWeight: FontWeight.w400);
+
   static final textdarkgrey = TextStyle(
       color: Mycolors.darkgrey, fontSize: 14.sp, fontWeight: FontWeight.w400);
 
   static final shop = TextStyle(
       color: Mycolors.primary, fontSize: 14.sp, fontWeight: FontWeight.w700);
 
+  static final money = TextStyle(
+      color: Mycolors.primary, fontSize: 16.sp, fontWeight: FontWeight.w700);
+
   static final productsitems = TextStyle(
       fontFamily: 'Montserrat',
       fontSize: 22.sp,
       fontWeight: FontWeight.w700,
       color: Colors.black);
+
+  static final headerblackMont = TextStyle(
+      fontFamily: 'Montserrat',
+      color: Colors.black,
+      fontSize: 28.sp,
+      fontWeight: FontWeight.w700);
 
   static final underlinebutton = TextStyle(
       decoration: TextDecoration.underline,
