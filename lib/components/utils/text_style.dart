@@ -26,6 +26,9 @@ class Textsyles {
   static final greetings = TextStyle(
       fontSize: 16.sp, fontWeight: FontWeight.w400, color: Colors.black);
 
+  static final headersblack = TextStyle(
+      fontSize: 16.sp, fontWeight: FontWeight.w700, color: Colors.black);
+
   static final appbarTitle = TextStyle(
       fontSize: 19.048.sp, fontWeight: FontWeight.w700, color: Colors.black);
 

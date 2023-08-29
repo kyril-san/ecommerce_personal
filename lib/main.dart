@@ -1,5 +1,6 @@
 // ignore_for_file: unused_import
 
+import 'package:ecommerce_personal/const/colors.dart';
 import 'package:ecommerce_personal/pages/home_page.dart';
 import 'package:ecommerce_personal/pages/products_details.dart';
 import 'package:ecommerce_personal/pages/sign_in_page.dart';
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
             colorScheme: ColorScheme.fromSeed(
-                seedColor: Colors.deepPurple, brightness: Brightness.light),
+                seedColor: Mycolors.primary, brightness: Brightness.light),
             useMaterial3: true,
             tabBarTheme: const TabBarTheme(dividerColor: Colors.transparent),
             fontFamily: 'DMSans'),

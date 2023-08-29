@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors
 
+import 'package:ecommerce_personal/components/products_details/products_%20features.dart';
 import 'package:ecommerce_personal/components/products_details/products_overview.dart';
 import 'package:ecommerce_personal/components/utils/text_style.dart';
 import 'package:flutter/material.dart';
@@ -16,7 +17,7 @@ late TabController tabs;
 
 List<Widget> pages = [
   ProductsOverwiewPage(),
-  ProductsOverwiewPage(),
+  ProductsFeaturesPage(),
   ProductsOverwiewPage(),
 ];
 
